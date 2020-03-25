@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<script>
+import storage from './storage'
+
+export default {
+  mounted() {
+    // storage.setItem("user", {"a": 3})
+    // storage.setItem("abc", {"aaa": 3}, "user")
+    storage.clear("a", "user")
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

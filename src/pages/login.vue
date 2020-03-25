@@ -1,12 +1,9 @@
 <template>
-  <div>
-    login
-  </div>
+  <div>login page</div>
 </template>
 
 <script>
-
 export default {
-  name: 'login'
-}
+  name: "login"
+};
 </script>
