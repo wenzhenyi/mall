@@ -15,9 +15,9 @@ export default {
   },
   mounted() {
     // 本地集成mockjs
-    this.axios.get('/user/login').then((res) => {
-      this.res = res;
-    })
+    // this.axios.get('/user/login').then((res) => {
+    //   this.res = res;
+    // })
     // storage.setItem("user", {"a": 3})
     // storage.setItem("abc", {"aaa": 3}, "user")
     // storage.clear("a", "user")
