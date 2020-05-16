@@ -1,5 +1,9 @@
 # mall
 
+## 简介
+
+小米商城
+
 ## Project setup
 ```
 npm install
